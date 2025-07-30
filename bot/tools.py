@@ -8,7 +8,7 @@ from bot.db_tools import _get_current_user_step
 from config import config
 
 from typing import List, Dict, Optional
-from globals import MODEL, TEMPERATURE, MAX_TOKENS
+from bot.globals import MODEL, TEMPERATURE, MAX_TOKENS
 
 
 openai.api_key = config.api_key
