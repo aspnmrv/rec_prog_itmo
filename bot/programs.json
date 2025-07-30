@@ -1,0 +1,312 @@
+{
+  "ai": {
+    "program_name": "Искусственный интеллект",
+    "courses": [
+      {
+        "semester": "1",
+        "name": "Воркшоп по созданию продукта на данных / Data Product Development Workshop",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Практика применения машинного обучения",
+        "credits": 6,
+        "hours": 216
+      },
+      {
+        "semester": "1",
+        "name": "Алгоритмы и структуры данных",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Математическая статистика",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Разработка веб-приложений (Python Backend)",
+        "credits": 6,
+        "hours": 216
+      },
+      {
+        "semester": "1",
+        "name": "Программирование на C++",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Введение в МО (Python) и Продвинутое МО (Python)",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Технологии обработки естественного языка",
+        "credits": 6,
+        "hours": 216
+      },
+      {
+        "semester": "1",
+        "name": "Автоматическое машинное обучение",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Обработка и генерация изображений",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Проектирование и разработка рекомендательных систем (продвинутый уровень)",
+        "credits": 6,
+        "hours": 216
+      },
+      {
+        "semester": "1",
+        "name": "Основы глубокого обучения",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Введение в большие языковые модели (LLM)",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Проектирование систем машинного обучения (ML System Design)",
+        "credits": 6,
+        "hours": 216
+      },
+      {
+        "semester": "1",
+        "name": "Проектирование микросервисов",
+        "credits": 6,
+        "hours": 216
+      },
+      {
+        "semester": "1",
+        "name": "Хранение больших данных",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Вычисления на графических процессорах (GPU)",
+        "credits": 6,
+        "hours": 216
+      },
+      {
+        "semester": "1",
+        "name": "UNIX/Linux системы",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Инструменты разработки data-driven решений",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Контейнеризация и оркестрация приложений",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Продуктовые исследования",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Графические интерфейсы",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Создание интеллектуальных агентов",
+        "credits": 6,
+        "hours": 216
+      },
+      {
+        "semester": "1",
+        "name": "Прикладной анализ временных рядов",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Процессы и методологии разработки решений на основе ИИ",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Инжиниринг управления данными",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Бизнес-аналитика для инженеров",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Математика для машинного обучения и анализа данных",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Языки программирования",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Основы машинного обучения",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Инженерные практики в ML и анализе данных",
+        "credits": 6,
+        "hours": 216
+      },
+      {
+        "semester": "1",
+        "name": "Дополнительные разделы машинного обучения",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Базы данных",
+        "credits": 3,
+        "hours": 108
+      }
+    ]
+  },
+  "ai_product": {
+    "program_name": "Управление ИИ-продуктами",
+    "courses": [
+      {
+        "semester": "1",
+        "name": "Продуктовые исследования",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Воркшоп по созданию продукта на данных / Data Product Development Workshop",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Процессы и методологии разработки решений на основе ИИ",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Монетизация ИИ-продуктов",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Стратегический продуктовый менеджмент",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Продуктовый дизайн и прототипирование AI-решений",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Математика для машинного обучения и анализа данных",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Математическая статистика",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Основы программирования на Python",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Основы машинного обучения",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Основы глубокого обучения",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Введение в большие языковые модели (LLM)",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Прикладной анализ временных рядов",
+        "credits": 3,
+        "hours": 108
+      },
+      {
+        "semester": "1",
+        "name": "Инженерные практики в ML и анализе данных",
+        "credits": 6,
+        "hours": 216
+      },
+      {
+        "semester": "1",
+        "name": "Прикладные инструменты разработки",
+        "credits": 6,
+        "hours": 216
+      },
+      {
+        "semester": "1",
+        "name": "Разработка веб-приложений (Python Backend)",
+        "credits": 6,
+        "hours": 216
+      },
+      {
+        "semester": "1",
+        "name": "Проектирование микросервисов",
+        "credits": 6,
+        "hours": 216
+      }
+    ]
+  }
+}
