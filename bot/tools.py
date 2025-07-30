@@ -9,6 +9,7 @@ from config import config
 
 from typing import List, Dict, Optional
 from bot.globals import MODEL, TEMPERATURE, MAX_TOKENS
+from pathlib import Path
 
 
 openai.api_key = config.api_key
@@ -16,7 +17,10 @@ openai.api_key = config.api_key
 
 model = MODEL
 
-with open("programs.json", "r", encoding="utf-8") as f:
+BASE_DIR = Path(__file__).resolve().parent
+PROGRAMS_PATH = BASE_DIR / "programs.json"
+
+with open(PROGRAMS_PATH, "r", encoding="utf-8") as f:
     PROGRAMS_CONTEXT = json.load(f)
 
 
