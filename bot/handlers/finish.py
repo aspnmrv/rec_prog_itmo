@@ -15,3 +15,4 @@ async def start(event):
         "Хорошо! Надеюсь, что помог!"
     )
     await event.client.send_message(event.chat_id, text, buttons=keyboard)
+    await _update_current_user_step(user_id, 3)

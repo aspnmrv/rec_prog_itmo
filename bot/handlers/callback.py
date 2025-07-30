@@ -9,8 +9,9 @@ from bot.tools import get_keyboard, get_program_conversation
 async def ai_dialog(event):
     user_id = event.message.peer_id.user_id
     step = await _get_current_user_step(user_id)
+    message_text = event.message.message
 
-    if step != 1:
+    if step != 1 or message_text in ("/start", "Завершить", "Начать 🚀", "Обо мне 👾"):
         return
 
     user_message = event.raw_text.strip()

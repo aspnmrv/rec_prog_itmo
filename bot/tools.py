@@ -40,16 +40,20 @@ async def is_expected_steps(user_id: int, expected_steps: List[Any]) -> bool:
 
 
 async def get_program_conversation(history: list, message: str) -> str:
-    """
-    """
+    """"""
 
     programs_text = []
+
     for key, prog in PROGRAMS_CONTEXT.items():
-        courses_str = "\n".join([f"{c['semester']}: {c['name']} ({c['credits']} кр., {c['hours']} ч.)"
-                                 for c in prog.get("courses", [])])
-        programs_text.append(
-            f"Программа: {prog['program_name']}\nОписание: {prog['description']}\nКурсы:\n{courses_str}"
+        courses_str = "\n".join(
+            [f"{c['semester']}: {c['name']} ({c['credits']} кр., {c['hours']} ч.)"
+             for c in prog.get("courses", [])]
         )
+        desc = prog.get("description", "Описание недоступно")
+        programs_text.append(
+            f"Программа: {prog.get('program_name', key)}\nОписание: {desc}\nКурсы:\n{courses_str}"
+        )
+
     programs_context_text = "\n\n".join(programs_text)
 
     system_prompt = f"""Ты — помощник для абитуриента, который выбирает между магистратурами ИТМО:
