@@ -2,7 +2,7 @@ import ast
 import os
 import sys
 import requests
-from ..config import config
+from config import config
 import importlib
 
 from pathlib import Path

@@ -3,7 +3,7 @@ import json
 
 from telethon.tl.custom import Button
 from typing import List, Literal, Tuple, Dict, Optional, Any
-from db_tools import _get_current_user_step
+from bot.db_tools import _get_current_user_step
 
 from config import config
 
